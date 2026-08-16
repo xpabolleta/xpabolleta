@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-        whith:
+        with:
           sparse-checkout: |
             resume.json
             package.json
@@ -21,8 +21,8 @@ jobs:
       - run: npm run validate-resume-json
       - name: Deploy to GitHub Gists
         env:
-          GIST_ID: {{ secrets.GIST_ID }}
-          GIST_TOKEN: {{ secrets.GIST_TOKEN }}
+          GIST_ID: ${{ secrets.GIST_ID }}
+          GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
         run: |
           set -euo pipefail
 
