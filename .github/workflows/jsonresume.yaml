@@ -1,0 +1,42 @@
+name: Deploy resume.json to JSON Resume Registry
+
+on:
+  push:
+    branches: [ main ]
+    paths: [ resume.json ]
+  workflow_dispatch:
+
+jobs:
+  deploy-resume-json:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        whith:
+          sparse-checkout: |
+            resume.json
+            package.json
+            package-lock.json
+      - uses: actions/setup-node@v7
+      - run: npm ci
+      - run: npm run validate-resume-json
+      - name: Deploy to GitHub Gists
+        env:
+          GIST_ID: {{ secrets.GIST_ID }}
+          GIST_TOKEN: {{ secrets.GIST_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          if [ -z "${GIST_ID:-}" ]; then
+            echo 'Repository variable GIST_ID is not set' >&2
+            exit 1
+          fi
+
+          payload=$(jq -n --rawfile content resume.json '{files: {"resume.json": {content: $content}}}')
+
+          curl -L \
+            -X PATCH \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${GIST_TOKEN}" \
+            -H "X-GitHub-Api-Version: 2026-03-10" \
+            https://api.github.com/gists/${GIST_ID} \
+            -d "${payload}"
