@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "validate-resume-json": "npx resume validate"
+  },
+  "devDependencies": {
+    "resume-cli": "^3.7.2"
+  }
+}
