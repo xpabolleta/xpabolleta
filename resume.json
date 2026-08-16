@@ -1,0 +1,195 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Xabier Pabolleta Martorell",
+    "label": "Ingeniero en Tecnologías de Telecomunicación | Software · Automatización · Telemática",
+    "image": "resources/images/image.jpeg",
+    "email": "xpabolleta@gmail.com",
+    "phone": "(+34) 601 006 575",
+    "url": "https://github.com/xpabolleta",
+    "summary": "Ingeniero en Tecnologías de Telecomunicación con mención en Telemática y experiencia profesional en desarrollo de software y automatización de procesos. Actualmente desarrollo soluciones en LabVIEW para automatizar procesos de calibración, integrando instrumentación, adquisición y procesamiento de señales. Interesado en seguir desarrollándome en áreas como software, redes y sistemas, automatización y ciberseguridad",
+    "location": {
+      "postalCode": "31013",
+      "city": "Berriozar",
+      "countryCode": "ES",
+      "region": "Navarra"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Xabi Pabolleta",
+        "url": "https://www.linkedin.com/in/xabi-pabolleta/"
+      },
+      {
+        "network": "GitHub",
+        "username": "xpabolleta",
+        "url": "https://github.com/xpabolleta"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Applus+ Laboratories",
+      "location": "Edificio Pasarela, Polígono Comarca I, 31160 Orcoyen, Navarra",
+      "description": "Laboratorio de metrología",
+      "position": "Ingeniero de Automatización",
+      "url": "https://www.appluslaboratories.com/global/es/about-us/inbrief/applus-ac6",
+      "startDate": "2025-02-03",
+      "summary": "Desarrollo de software para la automatización del proceso de calibración de equipos detectores de defectos por ultrasonidos y mejora de las herramientas de automatización existentes",
+      "highlights": [
+        "Desarrollo en LabVIEW de una herramienta para la automatización de los ensayos del Grupo 2 de la norma UNE-EN 22232-1",
+        "Integración y control remoto de equipos de instrumentación, incluyendo osciloscopio y generador de funciones, desde el software desarrollado",
+        "Adquisición, procesamiento y análisis de señales en bruto obtenidas mediante osciloscopio para el cálculo automatizado de los parámetros exigidos por la norma",
+        "Desarrollo de formularios y herramientas de apoyo para los ensayos no automatizables, facilitando la recogida y gestión de datos por parte de los técnicos",
+        "Mantenimiento, actualización y mejora de aplicaciones software existentes, incorporando nuevas funcionalidades y adaptándolas a las necesidades de los procesos de la empresa"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad Pública de Navarra",
+      "url": "https://www.unavarra.es",
+      "area": "Ingeniería en Tecnologías de Telecomunicación | Mención de Telemática",
+      "studyType": "Grado",
+      "startDate": "2020-09-01",
+      "endDate": "2025-06-01"
+    }
+  ],
+  "awards": [
+    {
+      "title": "CanSat España 2019 - Finalistas",
+      "date": "2019-05-05",
+      "awarder": "ESERO Spain",
+      "summary": "Finalistas de la edición española de CanSat 2019 en su edición celebrada en Zaragoza"
+    },
+    {
+      "title": "European CanSat 2019 - Highest Technical Achievement",
+      "date": "2019-06-28",
+      "awarder": "European Space Agency",
+      "summary": "CanSat es una iniciativa de la Agencia Espacial Europea que desafía a estudiantes de toda Europa a construir y lanzar un mini satélite del tamaño de una lata de refresco"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Automatización verificación de equipos de detección de fallos por ultrasonidos",
+      "publisher": "Universidad Pública de Navarra",
+      "releaseDate": "2025-06-01",
+      "url": "https://academica-e.unavarra.es/entities/publication/84ee4c00-0f8f-4a7f-bc03-1ef0bc266d34",
+      "summary": "Desarrollo e implementación de software para la automatización del proceso de calibración de equipos detectores de defectos por ultrasonidos"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Automatización",
+      "level": "Experiencia profesional",
+      "keywords": [
+        "LabVIEW",
+        "Actor Framework",
+        "Git",
+        "REST APIs"
+      ]
+    },
+    {
+      "name": "Desarrollo web",
+      "level": "Experiencia académica",
+      "keywords": [
+        "PHP",
+        "JavaScript",
+        "Node.js",
+        "React",
+        "Tailwind CSS",
+        "SQL",
+        "WebSocket"
+      ]
+    },
+    {
+      "name": "Programación y sistemas embebidos",
+      "level": "Experiencia académica",
+      "keywords": [
+        "Java",
+        "C/C++",
+        "Arduino"
+      ]
+    },
+    {
+      "name": "Herramientas",
+      "level": "Media-Alta",
+      "keywords": [
+        "Microsoft Office",
+        "Visual Studio Code",
+        "SketchUp",
+        "MATLAB"
+      ]
+    }    
+  ],
+  "languages": [
+    {
+      "language": "Español",
+      "fluency": "Nativo"
+    },
+    {
+      "language": "Inglés",
+      "fluency": "First Certificate in English"
+    },
+    {
+      "language": "Euskera",
+      "fluency": "Maila aurreratua Euskera B2"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Desarrollo de Software",
+      "keywords":[
+        "Arquitectura de software",
+        "Servicios web"
+      ]
+    },
+    {
+      "name": "Redes y Sistemas",
+      "keywords":[
+        "Redes de ordenadores",
+        "Sistemas"
+      ]
+    },
+    {
+      "name": "Ciberseguridad",
+      "keywords":[
+        "Seguridad de redes",
+        "Seguridad de sistemas"
+      ]
+    },
+    {
+      "name": "Automatización",
+      "keywords":[
+        "Instrumentación",
+        "Automatización de procesos industriales"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Auriculares inalámbricos",
+      "description": "Auriculares programables destinados a mejorar las condiciones laborales de trabajadores en áreas industriales caracterizadas por tareas monótonas y repetitivas",
+      "highlights": [
+        "Diseño y fabricación del circuito electrónico de los auriculares",
+        "Desarrollo de controlador para la comunicación con el equipo de sonido",
+        "Testeo en entorno real en puesto de trabajo"
+      ],
+      "keywords": [
+        "ESP", "Arduino", "C++", "Electrónica"
+      ],
+      "startDate": "2024-09-01",
+      "endDate": "2025-06-01",
+      "url": "https://www.unavarra.es/sites/actualidad/contents/noticias/2025/01/02/auriculares-inteligentes.html",
+      "roles": [
+        "Desarrollador"
+      ],
+      "entity": "Escuela Técnica Superior de Ingeniería Industrial y de Telecomunicación | UPNA",
+      "type": "hardware"
+    }
+  ],
+  "meta": {
+    "canonical": "https://xpabolleta.github.io/resume/",
+    "version": "v1.0.0"
+  }
+}
